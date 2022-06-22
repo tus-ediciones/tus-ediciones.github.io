@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fondofoto{
+    box-shadow: rgba(255, 255, 255, 0.4) 0px 5px, rgba(194, 194, 194, 0.3) 0px 10px, rgba(139, 139, 139, 0.2) 0px 15px, rgba(92, 92, 92, 0.1) 0px 20px, rgba(0, 0, 0, 0.05) 0px 25px;
+    
+}
+.informacion{
+    color: white;
+    
+}
+.fondo1{
+    background: rgb(8,7,7);
+background: linear-gradient(0deg, rgba(8,7,7,1) 0%, rgba(144,149,150,1) 100%);
+}
+.redesociales{
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.redesociales ul{ 
+    list-style: none;
+    padding-left: 0;
+}
+
+.redesociales ul li{
+    display: inline-block;
+    margin: 0;
+    text-align: center;
+   
+}
+.redesociales ul li a{
+    display: block;
+    padding: 0 1vh;
+}
+
+
+.lineadegradad{
+    box-shadow: rgba(255, 255, 255, 0.4) 0px 5px, rgba(194, 194, 194, 0.3) 0px 10px, rgba(139, 139, 139, 0.2) 0px 15px, rgba(92, 92, 92, 0.1) 0px 20px, rgba(0, 0, 0, 0.05) 0px 25px;
+    
+}
+
+.linea{
+    
+    height: .1rem;
+    width: 50%;
+    background-color: rgb(158, 156, 156);
+    text-align: center;
+    margin: auto;
+}
+
+.linea2{
+    
+    height: .1rem;
+    width: 20%;
+    background-color: rgb(158, 156, 156);
+    text-align: center;
+    margin: auto;
+}
+
+.arriba{
+    font-family: Sans-serif;
+}
+
+.frace{
+    color: rgb(212, 211, 209);
+    font-family: cursive;
+}
+
+.segunda{
+    display: flex;
+}
+.contsobremi{
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.contactame{
+    background: rgb(86, 86, 87);
+    background: linear-gradient(0deg, rgb(79, 79, 80) 0%, rgba(8,7,7,1) 100%);
+}
+.iconinfo:hover{
+    transform: scale(1.2);
+}
+.foto{
+    width: 100%;
+}
+.linktusedicion{
+    text-decoration: none;
+    color: rgb(118, 119, 119);
+}
+
+/*index*/
+
+.fondo{
+    background-image: url('fondo.png');
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.fotoperfil1{
+    width: 50vh;
+    border-radius: 50%;
+    border: 1px solid rgb(255, 252, 252);
+}
+
+.fotoperfil{
+    width: 20%;
+    border-radius: 50%;
+    border: 1px solid rgb(255, 252, 252);
+}
+.linkperfil{
+    margin-left: 2vh;
+    text-decoration: none;
+    color: rgb(163, 163, 163);
+}
+.fotoperfil:hover{
+    transform: scale(1.1);
+}
+.linkperfil:hover{
+    color: rgb(255, 255, 255);
+}
+.clientes{
+    background: rgba(26, 26, 26, 0.5);
+    border: 1px solid rgb(44, 44, 44);
+}
+.textoiniciociente{
+    color: rgb(185, 185, 185);
+}
+
